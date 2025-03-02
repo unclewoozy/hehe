@@ -25,3 +25,11 @@ function playBGM() {
         document.getElementById("playBGMButton").textContent = "Play"; 
     }
 }
+
+function showAnotherMessage() {
+    document.getElementById("popupMessage").classList.remove("hidden");
+}
+
+function closePopup() {
+    document.getElementById("popupMessage").classList.add("hidden");
+}
